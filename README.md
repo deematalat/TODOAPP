@@ -1,16 +1,34 @@
-# todoaql
+ # Flutter Todo App
+This is a Flutter Todo app that allows users to create and manage their to-do lists. The app utilizes sqflite for local database storage, Provider for state management, and clean architecture for code organization.
 
-A new Flutter project.
+# Features
 
-## Getting Started
+Create, edit, and delete to-do items.
+Mark items as completed or incomplete.
+View completed and incomplete items separately.
+Sort items by due date or priority.
+Utilizes sqflite for local database storage.
 
-This project is a starting point for a Flutter application.
+# Installation
 
-A few resources to get you started if this is your first Flutter project:
+Clone the repository to your local machine.
+Open the project in your preferred code editor.
+Run flutter pub get to install the required packages.
+Run flutter run to start the app on your emulator or device.
+Dependencies
+provider: ^6.0.0
+sqflite: ^2.0.0+3
+flutter_slidable: ^0.6.0
+intl: ^0.17.0
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Clean Architecture
+This app follows the principles of clean architecture to keep the code organized and maintainable. Clean architecture separates the app into three layers: domain, data, and presentation. The domain layer contains the business logic of the app, the data layer handles data storage and retrieval, and the presentation layer handles the user interface.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Provider
+This app uses the Provider package to manage state. Provider is a simple way to manage app state without using complex state management patterns like BLoC or Redux. The app uses Provider to manage the state of the to-do items, including creation, editing, and deletion.
+
+# Sqflite
+This app uses the sqflite package to store to-do items in a local SQLite database. Sqflite is a lightweight and efficient way to store structured data in Flutter apps.
+
+# Conclusion
+This Flutter Todo app demonstrates the use of clean architecture, sqflite, and Provider to create a clean, organized, and maintainable codebase. Feel free to modify and customize this app to fit your specific needs. Happy coding!
