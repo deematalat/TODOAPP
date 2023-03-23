@@ -1,6 +1,6 @@
  # Flutter Todo App
 This is a Flutter Todo app that allows users to create and manage their to-do lists. The app utilizes sqflite for local database storage, Provider for state management, and clean architecture for code organization.
-
+<img src="screenshots/todofram.png" alt="Alt text" title="Optional title">
 # Features
 
 Create, edit, and delete to-do items.
